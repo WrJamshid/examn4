@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background: #FFFFFF
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.header-logo {
+  display: inline-block;
+  max-width: 134px;
+}
+
+.korzinka {
+  width: 44px;
+  height: 34px;
+  display: flex;
+  background: #40bfff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.header-input {
+  max-width: 635px;
+  height: 64px;
+  display: flex;
+  align-items: center
+}
+
+input {
+  max-width: 507px;
+  height: auto;
+  padding: 10px 20px;
+  outline-style: none;
+  border: 2px solid #BCDDFE;
+}
+
+.search {
+  background: #40BFFF;
+  color: #FFFFFF;
+  padding: 10px 20px;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.438);
+  width: 100%;
+}
+
+h2 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.main-list {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+
+.main-content {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.content-item {
+  max-width: 300px;
+  height: 550px;
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.crazy-img {
+  padding: 40px;
+  height: 363px;
+}
+
+.price {
+  color: #40BFFF;
+  font-size: 20px;
+}
+
+.content-item__text {
+  font-weight: 700;
+  font-size: 18px;
+  color: #223263;
+  margin-bottom: 15px;
+}
+
+.buy {
+  background: rgb(8, 255, 8);
+  color: #FFFFFF;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.buy-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+/* cart page */
+
+.products-container {
+  max-width: 650px;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+
+.products-header {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid lightgrey;
+  margin: 0 auto;
+}
+
+.products-title {
+  display: flex;
+  align-items: center;
+  width: 45%;
+}
+
+.products-price {
+  display: flex;
+  align-items: center;
+  width: 15%;
+}
+
+.products-quantity {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.fake {
+  display: none;
+}
+
+.product {
+  width: 650px;
+}
+
+.product img {
+  margin-top: 20px;
+  width: 150px;
+  height: 200px;
+}
+
+.product ion-icon {
+  font-size: 45px;
+  color: red;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.products {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.korzinka-price {
+  margin-left: 10px;
+  color: #40BFFF;
+  font-size: 20px;
+}
+
+.quantity {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.quantity button {
+  width: 20px;
+  cursor: pointer;
+}
+
+.quantity span {
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.pro-quan {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid lightgrey;
+}
+
+.total {
+  font-size: 24px;
+  color: rgb(11, 254, 3);
+  margin-left: auto;
+}
+
+.basketTotalContainer {
+  background-color: #f51c04;
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 20px;
+  color: rgb(255, 255, 0);
+  font-size: larger;
+  cursor: pointer;
+}
+
+.remove {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #f51c04;
+  color: #fff;
+  cursor: pointer;
+}
+
+.active a{
+  color: #f51c04;
+}
